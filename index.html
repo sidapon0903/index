@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="style.css">
-<title>login</title>
+    <link rel="stylesheet" href="from.css">
+<title>Create account</title>
 </head>
 <body>
 <form class="container">
-    <h1 class="login-title">Login</h1>
+    <h1 class="Create account-title">Create account</ng-container></h1>
 
     <section class="input-box">
-        <input type="text" name="username" placeholder="Username">
-        <i class='bx bxs-user'></i>
+       <p><label for="Firitname">Firitname:</label><br>
+        <input type="text" id="Firitname" name="Firitname" placeholder="FirstName LastName" required><br>
     </section>
     <section class="input-box">
-        <input type="password" name="password" placeholder="Password">
-        <i class='bx bxs-lock-alt'></i>
+        <p><label for="Email/UserID">Email/UserID:</label><br>
+         <input type="text" id="Email/UserID" name="Email/UserID" placeholder="Email/UserID" required><br>
+        </section>
+    <section class="input-box">
+        <p><label for="password">Password:</label><br>
+            <input type="password" name="password" placeholder="Password">
+        </section>
+    <section class="input-box">
+        <p><label for="arrival">Arrival date:</label><br>
+            <input type="date" id="arrival" name="arrival" required><br>
     </section>
-
-    <section class="remember-forgot-box">
-        <div class="remember-me">
-            <input type="checkbox" name="remember-me" id="remember-me">
-            <label for="remember-me">
-                <h5>Remember me</h5>
-            </label>
-        </div>
-        <a class="forgot-password" href="#">
-            <h5>Forgot password?</h5>
-        <a >
+    <section class="input-box">
+        <p><label for="nationality">Nationality:</label><br>
+            <input type="nationality" name="nationality" placeholder="Nationality">
+        </section>
+    <section class="input-box">
+            <p><label for="gender">Gender:</label><br>
+                <input type="gender" name="gender" placeholder="Gender">
     </section>
-    
-    <a href="https://sidapon0903.github.io/page1/" class="login-button">Login</a>
-    <h5 class="dont-have-an-account">
-        Don't have an account?
-        <a href="https://sidapon0903.github.io/finish/"><b>signup</b></a>
-    </h5>
+        <section class="input-box">
+            <p><label for="province">Province:</label><br>
+                <input type="province" name="province" placeholder="Province">
+        </section>
+    </label><br><br>
+     <a href="/html/loy/page1.html" class="login-button">Finish</a>
+  
 </form>
-
-
 </body>
 </html>
